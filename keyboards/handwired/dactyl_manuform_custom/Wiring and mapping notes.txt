@@ -1,0 +1,123 @@
+Wiring and mapping notes
+
+
+
+
+Wiring of right half [row, column]:
+
+         [1,1][1,2][1,3][1,4][1,5][1,6]
+         [2,1][2,2][2,3][2,4][2,5][2,6]
+         [3,1][3,2][3,3][3,4][3,5][3,6]
+         [4,1][4,2][4,3][4,4][4,5][4,6]
+                   [5,3][5,4][5,5][5,6]
+[6,1][5,1][5,2]
+[6,2][6,3]
+
+
+Keycaps in place (right half):
+
+[1,1]: 7 & (number 7 / ampersand)
+[1,2]: 8 * (number 8 / asterisk)
+[1,3]: 9 ( (number 9 / open parenthesis)
+[1,4]: 0 ) (number 0 / close parenthesis)
+[1,5]: - _ (minus / underscore)
+[1,6]: = + (equal / plus)
+[2,1]: Y
+[2,2]: U
+[2,3]: I
+[2,4]: O
+[2,5]: P
+[2,6]: \ | (backslash / vertical bar)
+[3,1]: H
+[3,2]: J
+[3,3]: K
+[3,4]: L
+[3,5]: ; : (semicolon / colon)
+[3,6]: ' " (apostrophe / double quote)
+[4,1]: N
+[4,2]: M
+[4,3]: , < (comma / less than)
+[4,4]: . > (period / greater than)
+[4,5]: / ? (slash / question mark)
+[4,6]: Alt
+[5,1]: *Blank* -> Enter
+[5,2]: Ctrl
+[5,3]: *Blank* -> Backspace
+[5,4]: ` ~ (backquote / tilde)
+[5,5]: [ { (open square bracket / open curly brace)
+[5,6]: ] } (close square bracket / close curly brace)
+[6,1]: Alt -> MO(1) (hold for Layer 1)
+[6,2]: Shift
+[6,3]: *Blank* -> Space
+
+
+Wiring of left half [row, column] (mirrored, as viewed from top):
+
+[1,1][1,2][1,3][1,4][1,5][1,6]
+[2,1][2,2][2,3][2,4][2,5][2,6]
+[3,1][3,2][3,3][3,4][3,5][3,6]
+[4,1][4,2][4,3][4,4][4,5][4,6]
+[5,1][5,2][5,3][5,4]
+                   [5,5][5,6][6,6]
+                   [6,4][6,5]
+
+
+Keycaps in place (left half):
+
+[1,1]: 1 ! (number 1 / exclamation mark)
+[1,2]: 2 @ (number 2 / at sign)
+[1,3]: 3 # (number 3 / hash)
+[1,4]: 4 $ (number 4 / dollar sign)
+[1,5]: 5 % (number 5 / percent)
+[1,6]: 6 ^ (number 6 / caret)
+[2,1]: Tab
+[2,2]: Q
+[2,3]: W
+[2,4]: E
+[2,5]: R
+[2,6]: T
+[3,1]: Caps Lock
+[3,2]: A
+[3,3]: S
+[3,4]: D
+[3,5]: F
+[3,6]: G
+[4,1]: Ctrl
+[4,2]: Z
+[4,3]: X
+[4,4]: C
+[4,5]: V
+[4,6]: B
+[5,1]: Esc
+[5,2]: Ins
+[5,3]: Home
+[5,4]: End
+[5,5]: Context key -> MO(1) (hold for Layer 1)
+[5,6]: Del
+[6,6]: Windows key -> Space
+[6,4]: *Blank* -> Shift
+[6,5]: Fn -> Alt
+
+
+Left half key mapping:
+
+Layer 0 (Base):
+  1      2      3      4      5      6
+ Tab     Q      W      E      R      T
+ Caps    A      S      D      F      G
+ Ctrl    Z      X      C      V      B
+ Esc    Ins   Home    End
+                     MO(1)   Del   Space
+                     Shift   Alt
+
+
+Right half key mapping:
+
+Layer 0 (Base):
+          7      8      9      0      -      =
+          Y      U      I      O      P      \
+          H      J      K      L      ;      '
+          N      M      ,      .      /     Alt
+                      Bksp     `      [      ]
+ MO(1)  Enter  Ctrl
+ Shift  Space
